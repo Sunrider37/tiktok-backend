@@ -10,5 +10,4 @@ const tiktokSchema = mongoose.Schema({
     shares : String
 });
 
-export default mongoose.model('tiktokVideos', tiktokSchema);
-
+export default mongoose.model('tiktokVideos', tiktokSchema)
